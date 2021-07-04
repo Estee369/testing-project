@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -12,15 +13,18 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .hw {
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 .hw img {
     width: 70%;
+   
 }
 
 .google {
@@ -30,4 +34,38 @@ section {
     background-image: linear-gradient(tomato, rgb(231, 190, 5));
     color: white;
     font-weight: 400;
+}
+
+.top-banner {
+    background-image: url(frame/blue-shape\.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+
+img {
+    border-radius: 50%;
+}
+
+
+
+.c-text {
+    color: rgb(57, 214, 10);
+}
+
+#dream {
+    color: orange;
+    font-weight: 900;
+}
+
+.text {
+    text-align: justify;
+    color: rgb(201, 235, 8);
+}
+
+.dream-big {
+    background-image: url(frame/neon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
