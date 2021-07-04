@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -68,4 +68,38 @@ img {
     background-image: url(frame/neon.jpg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.hw2 {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    
+}
+.experience-area {
+    background-image: url(frame/blue-shape\.png);
+    background-repeat: no-repeat;
+}
+
+#hw3 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+}
+
+#hw4 {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, yellow);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
